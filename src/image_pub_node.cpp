@@ -8,6 +8,9 @@
 
 #include <opencv2/opencv.hpp>
 
+#define CV_CAP_PROP_POS_MSEC cv::CAP_PROP_POS_MSEC
+#define CV_BGR2RGB cv::COLOR_BGR2RGB
+
 int main(int argc, char **argv)
 {
     ROS_INFO("Starting image_pub ROS node...\n");
